@@ -182,7 +182,7 @@ async function downloadAsset(id, options) {
       {
         type: 'confirm',
         name: 'overwrite',
-        message: `File ${fileName} already exists in ${destDir}. Overwrite?`,
+        message: `File ${foundFileName} already exists in ${destDir}. Overwrite?`,
         default: false
       }
     ]);
@@ -194,7 +194,7 @@ async function downloadAsset(id, options) {
   }
 
   await fs.copy(sourcePath, destPath);
-  console.log(chalk.green(`Successfully downloaded ${fileName} to ${destDir}`));
+  console.log(chalk.green(`Successfully downloaded ${foundFileName} to ${destDir}`));
 }
 
 program.parse();
