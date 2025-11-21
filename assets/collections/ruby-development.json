@@ -1,9 +1,9 @@
 {
   "description": "Ruby and Ruby on Rails development resources.",
   "items": [
-    "instructions:ruby",
-    "instructions:rails",
-    "instructions:rspec",
-    "instructions:sidekiq"
+    "chatmodes:ruby-mcp-expert",
+    "instructions:ruby-mcp-server",
+    "instructions:ruby-on-rails",
+    "prompts:ruby-mcp-server-generator"
   ]
 }

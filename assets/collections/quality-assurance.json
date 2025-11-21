@@ -4,21 +4,10 @@
     "chatmodes:playwright-tester",
     "chatmodes:tdd-green",
     "chatmodes:tdd-red",
-    "instructions:playwright-typescript",
     "instructions:nodejs-javascript-vitest",
-    "instructions:cypress",
-    "instructions:selenium",
-    "instructions:jest",
-    "instructions:mocha",
-    "instructions:jasmine",
-    "instructions:cucumber",
-    "instructions:k6",
-    "prompts:playwright-generate-test",
+    "instructions:playwright-typescript",
     "prompts:breakdown-test",
     "prompts:javascript-typescript-jest",
-    "prompts:generate-unit-tests",
-    "prompts:generate-integration-tests",
-    "prompts:generate-e2e-tests",
-    "prompts:test-plan-generator"
+    "prompts:playwright-generate-test"
   ]
 }

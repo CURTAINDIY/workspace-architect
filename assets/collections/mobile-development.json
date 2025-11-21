@@ -1,9 +1,4 @@
 {
   "description": "Mobile application development resources for Flutter, React Native, Android, and iOS.",
-  "items": [
-    "instructions:flutter",
-    "instructions:react-native",
-    "instructions:android",
-    "instructions:ios"
-  ]
+  "items": []
 }

@@ -1,8 +1,7 @@
 {
   "description": "A collection of assets for Angular development",
   "items": [
-    "instructions:basic-setup",
-    "prompts:code-review",
-    "chatmodes:architect"
+    "chatmodes:electron-angular-native",
+    "instructions:angular"
   ]
 }

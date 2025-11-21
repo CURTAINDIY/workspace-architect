@@ -1,24 +1,29 @@
 {
   "description": "A comprehensive suite for Azure architecture, Bicep/Terraform implementation, and DevOps practices.",
   "items": [
+    "chatmodes:api-architect",
+    "chatmodes:azure-logic-apps-expert",
     "chatmodes:azure-principal-architect",
     "chatmodes:azure-saas-architect",
-    "chatmodes:azure-logic-apps-expert",
     "chatmodes:azure-verified-modules-bicep",
     "chatmodes:azure-verified-modules-terraform",
     "chatmodes:bicep-implement",
     "chatmodes:bicep-plan",
+    "chatmodes:declarative-agents-architect",
+    "chatmodes:terraform-azure-implement",
     "chatmodes:terraform-azure-planning",
     "instructions:azure-devops-pipelines",
-    "instructions:generate-modern-terraform-code-for-azure",
-    "instructions:bicep-code-best-practices",
     "instructions:azure-functions-typescript",
-    "instructions:azure-functions-dotnet",
-    "instructions:azure-functions-python",
+    "instructions:azure-logic-apps-power-automate",
+    "instructions:azure-verified-modules-terraform",
+    "instructions:bicep-code-best-practices",
+    "instructions:dotnet-architecture-good-practices",
+    "instructions:generate-modern-terraform-code-for-azure",
+    "instructions:terraform-azure",
+    "prompts:architecture-blueprint-generator",
     "prompts:az-cost-optimize",
     "prompts:azure-resource-health-diagnose",
-    "prompts:create-github-action-workflow-specification",
-    "prompts:terraform-azure-landing-zone",
-    "prompts:terraform-module-migration"
+    "prompts:create-architectural-decision-record",
+    "prompts:create-github-action-workflow-specification"
   ]
 }

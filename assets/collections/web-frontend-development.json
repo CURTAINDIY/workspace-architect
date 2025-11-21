@@ -1,27 +1,14 @@
 {
   "description": "Modern web frontend development resources covering React, Angular, Vue, Next.js, and more.",
   "items": [
-    "chatmodes:expert-react-frontend-engineer",
-    "chatmodes:expert-nextjs-developer",
-    "chatmodes:electron-angular-native",
     "chatmodes:aem-frontend-specialist",
-    "instructions:react",
+    "chatmodes:electron-angular-native",
+    "chatmodes:expert-nextjs-developer",
+    "chatmodes:expert-react-frontend-engineer",
     "instructions:angular",
-    "instructions:vue",
+    "instructions:astro",
     "instructions:nextjs",
     "instructions:svelte",
-    "instructions:tailwind",
-    "instructions:typescript",
-    "instructions:javascript",
-    "instructions:html-css",
-    "instructions:webpack",
-    "instructions:vite",
-    "instructions:astro",
-    "instructions:remix",
-    "instructions:solidjs",
-    "instructions:qwik",
-    "instructions:alpinejs",
-    "instructions:htmx",
-    "instructions:jquery"
+    "prompts:playwright-explore-website"
   ]
 }

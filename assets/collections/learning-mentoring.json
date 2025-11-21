@@ -1,15 +1,10 @@
 {
   "description": "Educational resources, tutorials, and study modes.",
   "items": [
-    "chatmodes:mentor",
-    "chatmodes:microsoft-study-mode",
     "chatmodes:code-tour",
-    "chatmodes:demonstrate-understanding",
     "chatmodes:critical-thinking",
-    "prompts:explain-code",
-    "prompts:generate-tutorial",
-    "prompts:create-quiz",
-    "prompts:study-plan",
-    "prompts:concept-explanation"
+    "chatmodes:demonstrate-understanding",
+    "chatmodes:mentor",
+    "chatmodes:microsoft-study-mode"
   ]
 }

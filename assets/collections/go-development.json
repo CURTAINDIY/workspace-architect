@@ -2,8 +2,6 @@
   "description": "Go programming language resources and frameworks.",
   "items": [
     "chatmodes:go-mcp-expert",
-    "instructions:go",
-    "instructions:gin",
-    "instructions:echo"
+    "instructions:go"
   ]
 }

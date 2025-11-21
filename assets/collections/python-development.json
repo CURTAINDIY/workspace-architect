@@ -2,14 +2,12 @@
   "description": "Resources for Python development including Django, Flask, FastAPI, and Data Science libraries.",
   "items": [
     "chatmodes:microsoft-agent-framework-python",
+    "chatmodes:python-mcp-expert",
+    "chatmodes:semantic-kernel-python",
+    "instructions:langchain-python",
+    "instructions:playwright-python",
     "instructions:python",
-    "instructions:django",
-    "instructions:flask",
-    "instructions:fastapi",
-    "instructions:pandas",
-    "instructions:numpy",
-    "instructions:scikit-learn",
-    "instructions:pytest",
-    "instructions:poetry"
+    "instructions:python-mcp-server",
+    "prompts:python-mcp-server-generator"
   ]
 }

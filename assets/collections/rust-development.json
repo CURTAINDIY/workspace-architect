@@ -1,10 +1,10 @@
 {
   "description": "Rust programming language resources and crates.",
   "items": [
+    "chatmodes:rust-gpt-4.1-beast-mode",
+    "chatmodes:rust-mcp-expert",
     "instructions:rust",
-    "instructions:actix",
-    "instructions:tokio",
-    "instructions:serde",
-    "instructions:cargo"
+    "instructions:rust-mcp-server",
+    "prompts:rust-mcp-server-generator"
   ]
 }

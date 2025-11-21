@@ -1,11 +1,4 @@
 {
   "description": "Resources for legacy system migration and code conversion.",
-  "items": [
-    "instructions:cobol",
-    "instructions:mainframe",
-    "prompts:code-conversion-cobol-to-java",
-    "prompts:code-conversion-vb6-to-dotnet",
-    "prompts:legacy-code-analysis",
-    "prompts:migration-strategy"
-  ]
+  "items": []
 }

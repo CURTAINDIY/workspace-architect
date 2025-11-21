@@ -1,13 +1,11 @@
 {
   "description": "PHP development resources including Laravel, Symfony, Drupal, WordPress, and Pimcore.",
   "items": [
-    "chatmodes:php-mcp-expert",
-    "chatmodes:laravel-expert-agent",
     "chatmodes:drupal-expert",
+    "chatmodes:laravel-expert-agent",
+    "chatmodes:php-mcp-expert",
     "chatmodes:pimcore-expert",
-    "chatmodes:wordpress-expert",
-    "instructions:php",
-    "instructions:laravel",
-    "instructions:symfony"
+    "instructions:php-mcp-server",
+    "prompts:php-mcp-server-generator"
   ]
 }
