@@ -133,16 +133,31 @@ async function downloadAsset(id, options) {
     return;
   }
 
-  // Try to find the file with .md extension or as is
-  let fileName = name;
-  if (!path.extname(name)) {
-    fileName += '.md';
+  // Try to find the file with various extensions
+  const potentialFileNames = [
+    name,
+    name + '.md'
+  ];
+
+  // Add type-specific extensions
+  if (type === 'chatmodes') potentialFileNames.push(name + '.chatmode.md');
+  if (type === 'prompts') potentialFileNames.push(name + '.prompt.md');
+  if (type === 'instructions') potentialFileNames.push(name + '.instructions.md');
+
+  let sourcePath = null;
+  let foundFileName = null;
+
+  for (const fname of potentialFileNames) {
+    const p = path.join(ASSETS_DIR, type, fname);
+    if (await fs.pathExists(p)) {
+      sourcePath = p;
+      foundFileName = fname;
+      break;
+    }
   }
 
-  const sourcePath = path.join(ASSETS_DIR, type, fileName);
-
-  if (!await fs.pathExists(sourcePath)) {
-    throw new Error(`Asset not found: ${type}/${fileName}`);
+  if (!sourcePath) {
+    throw new Error(`Asset not found: ${type}/${name}`);
   }
 
   let destDir;
@@ -152,7 +167,7 @@ async function downloadAsset(id, options) {
     destDir = path.join(process.cwd(), '.github', type);
   }
 
-  const destPath = path.join(destDir, fileName);
+  const destPath = path.join(destDir, foundFileName);
 
   if (options.dryRun) {
     console.log(chalk.cyan(`[Dry Run] Would copy ${sourcePath} to ${destPath}`));
