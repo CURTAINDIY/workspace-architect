@@ -1,0 +1,18 @@
+{
+  "description": "Resources for LLM prompts, Copilot instructions, and AI agent development.",
+  "items": [
+    "chatmodes:declarative-agents-architect",
+    "chatmodes:gpt-5-beast-mode",
+    "chatmodes:4.1-Beast",
+    "chatmodes:gilfoyle",
+    "prompts:prompt-improvement",
+    "prompts:chain-of-thought",
+    "prompts:few-shot-learning",
+    "prompts:zero-shot-learning",
+    "prompts:role-prompting",
+    "prompts:step-by-step-reasoning",
+    "prompts:prompt-template-generator",
+    "prompts:ai-persona-generator",
+    "prompts:copilot-instruction-generator"
+  ]
+}

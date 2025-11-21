@@ -1,0 +1,15 @@
+{
+  "description": "Resources for Python development including Django, Flask, FastAPI, and Data Science libraries.",
+  "items": [
+    "chatmodes:microsoft-agent-framework-python",
+    "instructions:python",
+    "instructions:django",
+    "instructions:flask",
+    "instructions:fastapi",
+    "instructions:pandas",
+    "instructions:numpy",
+    "instructions:scikit-learn",
+    "instructions:pytest",
+    "instructions:poetry"
+  ]
+}

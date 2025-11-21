@@ -1,0 +1,22 @@
+{
+  "description": "Project management resources for Agile, Jira, and requirements gathering.",
+  "items": [
+    "chatmodes:atlassian-requirements-to-jira",
+    "chatmodes:hlbpa",
+    "prompts:agile-user-story",
+    "prompts:sprint-planning",
+    "prompts:retrospective-meeting",
+    "prompts:daily-standup",
+    "prompts:project-charter",
+    "prompts:risk-management-plan",
+    "prompts:stakeholder-analysis",
+    "prompts:communication-plan",
+    "prompts:change-management-plan",
+    "prompts:project-status-report",
+    "prompts:meeting-minutes",
+    "prompts:email-generator",
+    "prompts:presentation-outline",
+    "prompts:swot-analysis",
+    "prompts:okr-generator"
+  ]
+}

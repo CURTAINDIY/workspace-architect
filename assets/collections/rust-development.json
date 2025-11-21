@@ -1,0 +1,10 @@
+{
+  "description": "Rust programming language resources and crates.",
+  "items": [
+    "instructions:rust",
+    "instructions:actix",
+    "instructions:tokio",
+    "instructions:serde",
+    "instructions:cargo"
+  ]
+}

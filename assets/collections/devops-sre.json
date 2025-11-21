@@ -1,0 +1,27 @@
+{
+  "description": "DevOps and Site Reliability Engineering resources including Docker, Kubernetes, and CI/CD.",
+  "items": [
+    "chatmodes:janitor",
+    "instructions:docker",
+    "instructions:kubernetes",
+    "instructions:helm",
+    "instructions:ansible",
+    "instructions:terraform",
+    "instructions:github-actions",
+    "instructions:gitlab-ci",
+    "instructions:jenkins",
+    "instructions:prometheus",
+    "instructions:grafana",
+    "instructions:elk-stack",
+    "instructions:splunk",
+    "instructions:datadog",
+    "instructions:new-relic",
+    "instructions:pagerduty",
+    "instructions:sentry",
+    "prompts:dockerfile-generator",
+    "prompts:kubernetes-manifest-generator",
+    "prompts:ci-cd-pipeline-generator",
+    "prompts:incident-response-plan",
+    "prompts:post-mortem-report"
+  ]
+}

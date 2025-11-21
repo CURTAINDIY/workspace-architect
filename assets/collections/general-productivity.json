@@ -1,0 +1,26 @@
+{
+  "description": "General coding utilities, debugging, refactoring, and git resources.",
+  "items": [
+    "chatmodes:debug",
+    "chatmodes:address-comments",
+    "chatmodes:accessibility",
+    "instructions:git",
+    "instructions:regex",
+    "instructions:bash",
+    "instructions:powershell",
+    "instructions:json",
+    "instructions:yaml",
+    "instructions:xml",
+    "instructions:csv",
+    "prompts:git-commit-message",
+    "prompts:regex-generator",
+    "prompts:cron-expression-generator",
+    "prompts:json-schema-generator",
+    "prompts:refactoring-suggestion",
+    "prompts:code-review",
+    "prompts:bug-fix",
+    "prompts:variable-naming",
+    "prompts:function-naming",
+    "prompts:comment-generator"
+  ]
+}

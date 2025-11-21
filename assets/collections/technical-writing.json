@@ -1,0 +1,18 @@
+{
+  "description": "Resources for technical documentation, Markdown, and diagrams.",
+  "items": [
+    "chatmodes:microsoft_learn_contributor",
+    "instructions:markdown",
+    "instructions:mermaid",
+    "instructions:documentation",
+    "prompts:readme-generator",
+    "prompts:api-documentation",
+    "prompts:user-manual",
+    "prompts:release-notes",
+    "prompts:technical-blog-post",
+    "prompts:tutorial-generator",
+    "prompts:faq-generator",
+    "prompts:glossary-generator",
+    "prompts:changelog-generator"
+  ]
+}

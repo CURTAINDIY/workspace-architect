@@ -1,0 +1,18 @@
+{
+  "description": "Resources for developing and using Model Context Protocol (MCP) servers and clients.",
+  "items": [
+    "chatmodes:csharp-mcp-expert",
+    "chatmodes:go-mcp-expert",
+    "chatmodes:java-mcp-expert",
+    "chatmodes:kotlin-mcp-expert",
+    "chatmodes:php-mcp-expert",
+    "instructions:mcp-server-typescript",
+    "instructions:mcp-server-python",
+    "instructions:mcp-client-typescript",
+    "instructions:mcp-client-python",
+    "prompts:mcp-server-scaffold",
+    "prompts:mcp-tool-definition",
+    "prompts:mcp-resource-definition",
+    "prompts:mcp-prompt-definition"
+  ]
+}

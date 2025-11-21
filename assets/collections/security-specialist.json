@@ -1,0 +1,7 @@
+{
+  "description": "Security auditing, threat modeling, and secure coding practices.",
+  "items": [
+    "prompts:security-audit",
+    "prompts:threat-modeling"
+  ]
+}

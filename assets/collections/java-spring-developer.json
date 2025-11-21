@@ -1,0 +1,29 @@
+{
+  "description": "Resources for modern Java development, Spring Boot projects, and migration tasks.",
+  "items": [
+    "chatmodes:java-mcp-expert",
+    "instructions:java",
+    "instructions:springboot",
+    "instructions:convert-jpa-to-spring-data-cosmos",
+    "instructions:quarkus",
+    "instructions:micronaut",
+    "instructions:jakarta-ee",
+    "instructions:hibernate",
+    "instructions:maven",
+    "instructions:gradle",
+    "prompts:create-spring-boot-java-project",
+    "prompts:java-springboot",
+    "prompts:java-junit",
+    "prompts:java-stream-api",
+    "prompts:spring-security-config",
+    "prompts:spring-cloud-gateway",
+    "prompts:spring-data-jpa-repository",
+    "prompts:java-record-refactoring",
+    "prompts:java-concurrency-utilities",
+    "prompts:spring-boot-actuator",
+    "prompts:java-functional-interface",
+    "prompts:spring-batch-job",
+    "prompts:java-module-system",
+    "prompts:spring-webflux-handler"
+  ]
+}

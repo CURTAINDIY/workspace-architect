@@ -1,0 +1,19 @@
+{
+  "description": "Database administration and development resources for SQL and NoSQL databases.",
+  "items": [
+    "chatmodes:ms-sql-dba",
+    "chatmodes:postgresql-dba",
+    "chatmodes:kusto-assistant",
+    "instructions:sql-server",
+    "instructions:postgresql",
+    "instructions:mysql",
+    "instructions:mongodb",
+    "instructions:redis",
+    "instructions:cassandra",
+    "instructions:elasticsearch",
+    "instructions:neo4j",
+    "prompts:sql-query-optimization",
+    "prompts:database-schema-design",
+    "prompts:nosql-data-modeling"
+  ]
+}

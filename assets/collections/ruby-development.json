@@ -1,0 +1,9 @@
+{
+  "description": "Ruby and Ruby on Rails development resources.",
+  "items": [
+    "instructions:ruby",
+    "instructions:rails",
+    "instructions:rspec",
+    "instructions:sidekiq"
+  ]
+}
