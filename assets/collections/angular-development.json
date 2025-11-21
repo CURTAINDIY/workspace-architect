@@ -1,0 +1,8 @@
+{
+  "description": "A collection of assets for Angular development",
+  "items": [
+    "instructions:basic-setup",
+    "prompts:code-review",
+    "chatmodes:architect"
+  ]
+}
