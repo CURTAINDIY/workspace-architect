@@ -3,6 +3,7 @@
 import fs from 'fs-extra';
 import path from 'path';
 import matter from 'gray-matter';
+import chalk from 'chalk';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -13,7 +14,7 @@ const MANIFEST_PATH = path.join(ROOT_DIR, 'assets-manifest.json');
 const TYPES = ['chatmodes', 'instructions', 'prompts', 'collections'];
 
 async function generateManifest() {
-  console.log('Generating assets manifest...');
+  console.log(chalk.blue('Generating assets manifest...'));
   const manifest = {
     version: '1.0.0',
     generatedAt: new Date().toISOString(),
@@ -59,7 +60,7 @@ async function generateManifest() {
           title = parsed.data.title || id;
         }
       } catch (e) {
-        console.warn(`Warning: Could not parse ${filePath}: ${e.message}`);
+        console.warn(chalk.yellow(`Warning: Could not parse ${filePath}: ${e.message}`));
       }
 
       manifest.assets[key] = {
@@ -73,7 +74,7 @@ async function generateManifest() {
   }
 
   await fs.writeJson(MANIFEST_PATH, manifest, { spaces: 2 });
-  console.log(`Manifest generated at ${MANIFEST_PATH} with ${Object.keys(manifest.assets).length} assets.`);
+  console.log(chalk.blue(`Manifest generated at ${MANIFEST_PATH} with ${chalk.green(Object.keys(manifest.assets).length)} assets.`));
 }
 
 generateManifest().catch(console.error);
