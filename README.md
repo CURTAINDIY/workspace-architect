@@ -1,62 +1,177 @@
 # Workspace Architect
 
-A comprehensive library of specialized AI personas and chat modes for GitHub Copilot, accessible via CLI.
+A comprehensive library of specialized AI personas and chat modes for GitHub Copilot, ranging from architectural planning and specific tech stacks to advanced cognitive reasoning models.
 
-## Usage
+## Overview
 
-You can use this tool directly with `npx` without installing it:
+Workspace Architect is a CLI tool and library designed to enhance your experience with GitHub Copilot. It provides a curated collection of:
 
-```bash
-npx workspace-architect download instructions:basic-setup
-```
+*   **Instructions**: Detailed guidelines to set the context for Copilot.
+*   **Prompts**: Reusable prompts for specific tasks like code review or refactoring.
+*   **Chat Modes**: Specialized personas (e.g., "Azure Architect", "React Expert") to guide the conversation.
+*   **Collections**: Grouped assets for specific domains (e.g., "Web Development", "DevOps").
 
-### Commands
+## Why Workspace Architect?
 
-#### List Available Assets
+*   **Curated Collections**: Don't waste time hunting for individual prompts. Download a complete "Web Development" or "DevOps" suite in one command.
+*   **Zero Friction**: No installation required. Just run `npx workspace-architect` in any folder.
+*   **Universal Portability**: Works with any project structure. Assets are simple Markdown files that live in your repo.
+*   **Lightweight**: No complex MCP servers or heavy dependencies. Just pure context for Copilot.
+*   **Algorithmic Curation**: Our collections are continuously monitored by an intelligent TF-IDF/Cosine Similarity engine to ensure they always include the most relevant assets and exclude outdated ones with zero regression.
+
+## For Consumers
+
+### Usage
+
+You can use this tool directly with `npx` without installing it globally:
 
 ```bash
 npx workspace-architect list
-# or list specific type
+```
+
+### Asset Types
+
+*   **Instructions (`instructions`)**: These are system-level instructions or "custom instructions" you can add to your `.github/copilot-instructions.md` or use to prime a session.
+*   **Prompts (`prompts`)**: Specific queries or templates to ask Copilot to perform a task.
+*   **Chat Modes (`chatmodes`)**: Specialized persona definitions that define how Copilot should behave, reason, and respond.
+*   **Collections (`collections`)**: Bundles of the above assets tailored for specific roles or workflows.
+
+### CLI Reference
+
+#### List Available Assets
+
+View all available assets or filter by type:
+
+```bash
+# List all assets
+npx workspace-architect list
+
+# List only instructions
 npx workspace-architect list instructions
+
+# List only collections
+npx workspace-architect list collections
 ```
 
 #### Download an Asset
+
+Download a specific asset to your project. By default, assets are downloaded to `.github/<type>/`.
 
 ```bash
 npx workspace-architect download <type>:<name>
 ```
 
-Example:
+**Examples:**
+
 ```bash
-npx workspace-architect download prompts:code-review
+# Download a specific instruction file
+npx workspace-architect download instructions:reactjs
+
+# Download a collection of assets
+npx workspace-architect download collections:web-frontend-development
 ```
 
-Options:
-- `-d, --dry-run`: Simulate the download without writing files.
-- `-f, --force`: Overwrite existing files without asking.
-- `-o, --output <path>`: Specify the output path (default: `.github/<type>`).
+**Options:**
 
-## Development
+*   `-d, --dry-run`: Simulate the download without writing files. Useful to see where files will be placed.
+*   `-f, --force`: Overwrite existing files without asking for confirmation.
+*   `-o, --output <path>`: Specify a custom output directory.
 
-### Local Testing
+## For Contributors
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+We welcome contributions! Whether you want to add a new persona, improve existing prompts, or curate a collection, here is how you can help.
 
-2. Run the CLI locally:
-   ```bash
-   node bin/cli.js list
-   ```
+### Project Structure
 
-3. Link the package to test `npx` behavior locally (simulated):
-   ```bash
-   npm link
-   npx workspace-architect list
-   ```
+*   `assets/`: Contains the source markdown and JSON files for all assets.
+    *   `chatmodes/`: Persona definitions.
+    *   `collections/`: JSON files defining groups of assets.
+    *   `instructions/`: Contextual guidelines.
+    *   `prompts/`: Reusable prompt templates.
+*   `bin/`: Contains the CLI entry point (`cli.js`).
+*   `scripts/`: Utility scripts for maintenance and analysis.
 
-## Adding New Assets
+### Development Setup
 
-1. Create a new markdown file in `assets/instructions`, `assets/prompts`, or `assets/chatmodes`.
-2. The file name will be the ID used for downloading (e.g., `assets/instructions/my-guide.md` -> `instructions:my-guide`).
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/archubbuck/workspace-architect.git
+    cd workspace-architect
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the CLI locally**:
+    You can test your changes by running the CLI script directly:
+    ```bash
+    node bin/cli.js list
+    ```
+
+4.  **Test with Local Registry (Verdaccio)**:
+    For a more accurate simulation of the end-user experience, we use Verdaccio as a local npm registry.
+
+    *   **Start the registry**:
+        ```bash
+        npm run start:registry
+        ```
+    *   **Publish to local registry**:
+        In a new terminal:
+        ```bash
+        npm run publish:local
+        ```
+    *   **Run with `npx`**:
+        ```bash
+        npx --registry http://localhost:4873 workspace-architect list
+        ```
+
+5.  **Quick Local Link (Alternative)**:
+    For rapid iteration without publishing, you can link the package:
+    ```bash
+    npm link
+    npx workspace-architect list
+    ```
+
+### Adding New Assets
+
+1.  Create a new markdown file in the appropriate folder (`assets/instructions`, `assets/prompts`, or `assets/chatmodes`).
+2.  **Naming Convention**: The filename becomes the ID.
+    *   Example: `assets/instructions/my-guide.md` becomes `instructions:my-guide`.
+    *   Extensions like `.chatmode.md` or `.prompt.md` are stripped from the ID but help with organization.
+3.  **Metadata**: You can optionally add YAML frontmatter to your markdown files to provide a description and title.
+
+    ```markdown
+    ---
+    title: My Custom Guide
+    description: A guide for setting up X.
+    ---
+    # Content starts here...
+    ```
+
+### Creating Collections
+
+Collections are JSON files located in `assets/collections/`. They group multiple assets together.
+
+**Format:**
+
+```json
+{
+  "name": "My Collection",
+  "description": "A collection for X development.",
+  "items": [
+    "instructions:reactjs",
+    "prompts:code-review",
+    "chatmodes:expert-architect"
+  ]
+}
+```
+
+### Scripts
+
+*   **`npm run generate-manifest`**: Generates `assets-manifest.json`. This file is used by the CLI in production to know what assets are available without scanning the file system. **Run this before submitting a PR.**
+*   **`npm run analyze`**: Runs `scripts/analyze-collections.js`. This is an intelligent analysis tool that uses TF-IDF and Cosine Similarity to continuously monitor and regenerate collection profiles. It ensures collections always point to the most relevant assets with zero regression.
+    *   Use `npm run analyze -- --add` to automatically add high-confidence matches.
+    *   Use `npm run analyze -- --remove` to remove low-confidence items.
+*   **`npm run fetch-upstream`**: Syncs assets from the upstream `github/awesome-copilot` repository (requires configuration).
