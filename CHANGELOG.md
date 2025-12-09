@@ -1,5 +1,7 @@
 
 
+## [1.5.11](https://github.com/archubbuck/workspace-architect/compare/v1.5.10...v1.5.11) (2025-12-09)
+
 ## [1.5.10](https://github.com/archubbuck/workspace-architect/compare/v1.5.9...v1.5.10) (2025-12-07)
 
 ## [1.5.9](https://github.com/archubbuck/workspace-architect/compare/v1.5.8...v1.5.9) (2025-12-05)
