@@ -1,5 +1,14 @@
 
 
+## [1.5.14](https://github.com/archubbuck/workspace-architect/compare/v1.5.13...v1.5.14) (2025-12-13)
+
+
+### Bug Fixes
+
+* include .github/agents/ in sync workflow git add ([13e5e7f](https://github.com/archubbuck/workspace-architect/commit/13e5e7f762d226ddbf47126e3478db810c7012eb))
+* make fetch-upstream fail on sync errors and add auth to downloads ([35ed5b4](https://github.com/archubbuck/workspace-architect/commit/35ed5b4bee6e31e296fbfa4980a485a9da16ed11))
+* use Bearer token format for GitHub API authentication ([fe6c9a7](https://github.com/archubbuck/workspace-architect/commit/fe6c9a71d5baa1dbb4b80dc99d53497a7fd0aca1))
+
 ## [1.5.13](https://github.com/archubbuck/workspace-architect/compare/v1.5.12...v1.5.13) (2025-12-13)
 
 ## [1.5.12](https://github.com/archubbuck/workspace-architect/compare/v1.5.11...v1.5.12) (2025-12-13)
