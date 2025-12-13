@@ -1,5 +1,13 @@
 
 
+## [1.5.12](https://github.com/archubbuck/workspace-architect/compare/v1.5.11...v1.5.12) (2025-12-13)
+
+
+### Bug Fixes
+
+* Filter out non-.md files (yml, yaml) in sync and manifest generation ([181b1dc](https://github.com/archubbuck/workspace-architect/commit/181b1dc6d4de7f06fcc83175cfcc8cdf234934d2))
+* Use explicit extension checks in ID generation ([4c3f4c3](https://github.com/archubbuck/workspace-architect/commit/4c3f4c32e8aa9872f39cde838bbce37438afe2ee))
+
 ## [1.5.11](https://github.com/archubbuck/workspace-architect/compare/v1.5.10...v1.5.11) (2025-12-09)
 
 ## [1.5.10](https://github.com/archubbuck/workspace-architect/compare/v1.5.9...v1.5.10) (2025-12-07)
