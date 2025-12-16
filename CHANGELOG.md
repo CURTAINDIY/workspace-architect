@@ -1,5 +1,12 @@
 
 
+## [1.5.44](https://github.com/archubbuck/workspace-architect/compare/v1.5.43...v1.5.44) (2025-12-16)
+
+
+### Bug Fixes
+
+* sync content from awesome-copilot ([57a57bd](https://github.com/archubbuck/workspace-architect/commit/57a57bd387e75899372cf53894539f8f24fe08ca))
+
 ## [1.5.43](https://github.com/archubbuck/workspace-architect/compare/v1.5.42...v1.5.43) (2025-12-16)
 
 
