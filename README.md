@@ -1,11 +1,24 @@
 # Workspace Architect
 
 [![npm version](https://img.shields.io/npm/v/workspace-architect.svg)](https://www.npmjs.com/package/workspace-architect)
+[![npm downloads](https://img.shields.io/npm/dm/workspace-architect.svg)](https://www.npmjs.com/package/workspace-architect)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![GitHub stars](https://img.shields.io/github/stars/archubbuck/workspace-architect.svg)](https://github.com/archubbuck/workspace-architect/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/archubbuck/workspace-architect.svg)](https://github.com/archubbuck/workspace-architect/issues)
 
 > A comprehensive library of specialized AI agents and personas for GitHub Copilot, ranging from architectural planning and specific tech stacks to advanced cognitive reasoning models.
 
 Workspace Architect is a zero-friction CLI tool that provides curated collections of specialized agents, instructions, and prompts to supercharge your GitHub Copilot experience.
+
+## Why Workspace Architect?
+
+**Maximize GitHub Copilot's Potential** - GitHub Copilot is powerful, but it's even better with context. Workspace Architect provides 400+ expert-crafted agents, instructions, and prompts that give Copilot the specialized knowledge it needs for your specific tech stack and domain.
+
+**Save Time, Start Faster** - Instead of crafting custom instructions from scratch, instantly download battle-tested configurations for React, Azure, DevOps, AI Engineering, and dozens of other domains. Get productive in seconds with `npx workspace-architect`.
+
+**Stay Current** - Our collections are automatically synced from trusted upstream sources like GitHub's [awesome-copilot](https://github.com/github/awesome-copilot) and Anthropic's [skills repository](https://github.com/anthropics/skills), ensuring you always have access to the latest and greatest community contributions.
+
+**Universal Compatibility** - Works with GitHub Copilot, Claude, and other AI assistants. Simple markdown files mean no vendor lock-in, no complex setup, and compatibility across your entire development workflow.
 
 ## Features
 

@@ -29,18 +29,31 @@
     "LICENSE"
   ],
   "keywords": [
-    "copilot",
-    "agents",
-    "personas",
+    "github-copilot",
+    "copilot-agents",
+    "ai-agents",
+    "copilot-instructions",
+    "copilot-chat",
+    "chatmodes",
+    "ai-personas",
     "prompts",
-    "ai-assistant",
-    "architecture",
-    "planning",
+    "prompt-engineering",
     "developer-tools",
-    "workspace-architect",
+    "cli-tool",
+    "npx",
+    "code-assistant",
+    "ai-assistant",
+    "agentic-workflow",
+    "llm",
+    "claude-skills",
+    "vscode",
+    "architecture",
+    "devops",
     "react",
     "azure",
-    "agentic-workflow"
+    "typescript",
+    "code-generation",
+    "productivity"
   ],
   "repository": {
     "type": "git",
@@ -50,7 +63,7 @@
     "url": "https://github.com/archubbuck/workspace-architect/issues"
   },
   "homepage": "https://github.com/archubbuck/workspace-architect#readme",
-  "author": "",
+  "author": "Adam Chubbuck <adam.chubbuck@gmail.com> (https://github.com/archubbuck)",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0",
