@@ -1,5 +1,48 @@
 
 
+## [2.0.0](https://github.com/archubbuck/workspace-architect/compare/v1.7.0...v1.8.0) (2026-01-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* The CLI command pattern has changed from colon-separated
+format (type:name) to space-separated format (type name).
+
+The old format `download <type>:<name>` is deprecated in favor of the new
+format `download <type> <name>`. The old format still works but shows a
+deprecation warning.
+
+Users should update their scripts:
+- Old: npx workspace-architect download agents:azure-architect
+- New: npx workspace-architect download agents azure-architect
+
+This change improves consistency with standard CLI patterns and makes
+commands more intuitive.
+
+Co-authored-by: archubbuck <3529902+archubbuck@users.noreply.github.com>
+
+### Features
+
+* Add deprecation warning for legacy colon-separated format ([a1b22b0](https://github.com/archubbuck/workspace-architect/commit/a1b22b0cc57edf90694e0e15ea52dbbcb207bd1e))
+* add force option to release workflows for emergency deployments ([c77e61c](https://github.com/archubbuck/workspace-architect/commit/c77e61c871cdb952029b53e0f7362bd02d83e688))
+* Change CLI command pattern to <action> <type> <name> ([df8f13b](https://github.com/archubbuck/workspace-architect/commit/df8f13b69d3be32eb9843c9fbc79e44515eb580a))
+* Show full command with npx in deprecation warning ([17e4fda](https://github.com/archubbuck/workspace-architect/commit/17e4fda2b742704f65811f9b08c2c364d9462d06))
+* Update CLI to use space-separated arguments ([6b99581](https://github.com/archubbuck/workspace-architect/commit/6b995811c597bddb4172ce25826c5827fee71e77))
+
+## [1.8.0](https://github.com/archubbuck/workspace-architect/compare/v1.7.0...v1.8.0) (2026-01-08)
+
+
+### Features
+
+* add individual sync scripts for agents, instructions, prompts, and collections ([dbdb3ba](https://github.com/archubbuck/workspace-architect/commit/dbdb3ba477f75c100c6fd72717574fe88f2267e1))
+* add recursive directory traversal to sync scripts ([51be623](https://github.com/archubbuck/workspace-architect/commit/51be623f8e7736f09c68f9432bc5b4dd78e142d6))
+* make file extensions configurable as arrays in sync scripts ([024ba5f](https://github.com/archubbuck/workspace-architect/commit/024ba5ffd1ece6a3cd3b4d103daa9dbb47e54575))
+
+
+### Bug Fixes
+
+* sync content from upstream resources ([dd3c1cc](https://github.com/archubbuck/workspace-architect/commit/dd3c1ccc23b337c63b74bb1372c82cd2daadd36c))
+
 ## 2.0.0 (2026-01-08)
 
 
