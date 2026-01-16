@@ -1,5 +1,12 @@
 
 
+## [2.2.1](https://github.com/archubbuck/workspace-architect/compare/v2.2.0...v2.2.1) (2026-01-16)
+
+
+### Bug Fixes
+
+* correct bin path and remove --no-increment flag in CI ([862379d](https://github.com/archubbuck/workspace-architect/commit/862379da0d57f0a208d6f01d842c8c9dbfb52c54))
+
 ## [2.2.0](https://github.com/archubbuck/workspace-architect/compare/v2.1.17...v2.2.0) (2026-01-16)
 
 
