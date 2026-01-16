@@ -1,5 +1,23 @@
 
 
+## [2.2.0](https://github.com/archubbuck/workspace-architect/compare/v2.1.17...v2.2.0) (2026-01-16)
+
+
+### Features
+
+* add comprehensive asset validation for all asset types ([14f21db](https://github.com/archubbuck/workspace-architect/commit/14f21db2ce45f2794b1649d459cd152111cb3030))
+* add dry-run support to sync and release pipelines ([40b43cd](https://github.com/archubbuck/workspace-architect/commit/40b43cdead6f6907c66fa83408f5fc63f1b1d6fe))
+
+
+### Bug Fixes
+
+* Each sync step now validates only its own asset type ([7fba9a2](https://github.com/archubbuck/workspace-architect/commit/7fba9a22909bc847888f4383a82d0ed6ad956841))
+* improve validation error handling to distinguish fatal errors from warnings ([d4a398e](https://github.com/archubbuck/workspace-architect/commit/d4a398e8dea386e021943664e6abe5d76f8a9150))
+* improve validation robustness with optional chaining and better documentation ([6e9d17b](https://github.com/archubbuck/workspace-architect/commit/6e9d17bff940539ee75d2f2eeb98af2f07cf4e44))
+* Only update lastSync timestamp when file list changes ([#59](https://github.com/archubbuck/workspace-architect/issues/59)) ([86149ed](https://github.com/archubbuck/workspace-architect/commit/86149ed44ec5e32a0088953d52c7948c0cb073bd))
+* sync content from upstream resources ([ceaf676](https://github.com/archubbuck/workspace-architect/commit/ceaf67600745a30f6e330c2a1fac01a9dfbdd439))
+* update comment line reference in sync-anthropic-skills ([38fce89](https://github.com/archubbuck/workspace-architect/commit/38fce89d87c22d1eed4badeecc03633e81ece653))
+
 ## [2.1.17](https://github.com/archubbuck/workspace-architect/compare/v2.1.16...v2.1.17) (2026-01-15)
 
 
