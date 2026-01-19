@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-01-15T17:24:03.528Z",
+  "lastSync": "2026-01-19T01:37:15.514Z",
   "source": "github/awesome-copilot/collections",
   "files": [
     "awesome-copilot.collection.yml",
@@ -17,6 +17,11 @@
     "java-mcp-development.collection.yml",
     "kotlin-mcp-development.collection.yml",
     "mcp-m365-copilot.collection.yml",
+    "openapi-to-application-csharp-dotnet.collection.yml",
+    "openapi-to-application-go.collection.yml",
+    "openapi-to-application-java-spring-boot.collection.yml",
+    "openapi-to-application-nodejs-nestjs.collection.yml",
+    "openapi-to-application-python-fastapi.collection.yml",
     "partners.collection.yml",
     "pcf-development.collection.yml",
     "php-mcp-development.collection.yml",

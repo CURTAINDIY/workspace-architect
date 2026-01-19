@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-01-15T16:13:28.498Z",
+  "lastSync": "2026-01-19T01:36:32.945Z",
   "source": "github/awesome-copilot/agents",
   "files": [
     "4.1-Beast.agent.md",
@@ -82,6 +82,7 @@
     "neon-migration-specialist.agent.md",
     "neon-optimization-analyzer.agent.md",
     "octopus-deploy-release-notes-mcp.agent.md",
+    "openapi-to-application.agent.md",
     "pagerduty-incident-responder.agent.md",
     "php-mcp-expert.agent.md",
     "pimcore-expert.agent.md",
