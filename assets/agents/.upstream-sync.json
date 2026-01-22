@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-01-19T01:36:32.945Z",
+  "lastSync": "2026-01-22T00:31:14.931Z",
   "source": "github/awesome-copilot/agents",
   "files": [
     "4.1-Beast.agent.md",
@@ -28,6 +28,9 @@
     "bicep-plan.agent.md",
     "blueprint-mode-codex.agent.md",
     "blueprint-mode.agent.md",
+    "cast-imaging-impact-analysis.agent.md",
+    "cast-imaging-software-discovery.agent.md",
+    "cast-imaging-structural-quality-advisor.agent.md",
     "clojure-interactive-programming.agent.md",
     "code-tour.agent.md",
     "comet-opik.agent.md",

@@ -1,9 +1,10 @@
 {
-  "lastSync": "2026-01-19T01:37:15.514Z",
+  "lastSync": "2026-01-22T00:31:55.166Z",
   "source": "github/awesome-copilot/collections",
   "files": [
     "awesome-copilot.collection.yml",
     "azure-cloud-development.collection.yml",
+    "cast-imaging.collection.yml",
     "clojure-interactive-programming.collection.yml",
     "csharp-dotnet-development.collection.yml",
     "csharp-mcp-development.collection.yml",
