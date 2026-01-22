@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "anthropics/skills/skills",
-      "lastSync": "2026-01-22T22:13:32.129Z",
+      "lastSync": "2026-01-22T23:09:18.101Z",
       "files": [
         "algorithmic-art",
         "brand-guidelines",
@@ -17,7 +17,9 @@
         "skill-creator",
         "slack-gif-creator",
         "theme-factory",
-        "web-artifacts-builder"
+        "web-artifacts-builder",
+        "webapp-testing",
+        "xlsx"
       ]
     }
   ]
