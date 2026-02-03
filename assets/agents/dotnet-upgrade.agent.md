@@ -122,7 +122,7 @@ dotnet msbuild <ProjectName>.csproj /t:GenerateRestoreGraphFile /p:RestoreGraphO
 ## Classification Rules
 - `TargetFramework` starts with `netcoreapp`, `net5.0+`, `net6.0+`, etc. → **Modern .NET**
 - `netstandard*` → **.NET Standard** (migrate to current .NET version)
-- `net4*` → **.NET Framework** (migrate via intermediate step to .NET 6+)
+- `net4*` → **.NET Framework** (migrate via intermediate step to .NET 8+)
 
 ---
 
