@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/instructions",
-      "lastSync": "2026-02-03T01:39:11.304Z",
+      "lastSync": "2026-02-05T23:09:18.378Z",
       "files": [
         "a11y.instructions.md",
         "agent-skills.instructions.md",
@@ -97,6 +97,7 @@
         "nestjs.instructions.md",
         "nextjs-tailwind.instructions.md",
         "nextjs.instructions.md",
+        "no-heredoc.instructions.md",
         "nodejs-javascript-vitest.instructions.md",
         "object-calisthenics.instructions.md",
         "oqtane.instructions.md",
