@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/agents",
-      "lastSync": "2026-02-02T01:39:23.600Z",
+      "lastSync": "2026-02-10T01:40:01.679Z",
       "files": [
         "4.1-Beast.agent.md",
         "CSharpExpert.agent.md",
@@ -68,6 +68,7 @@
         "gpt-5-beast-mode.agent.md",
         "hlbpa.agent.md",
         "implementation-plan.agent.md",
+        "insiders-a11y-tracker.agent.md",
         "janitor.agent.md",
         "java-mcp-expert.agent.md",
         "jfrog-sec.agent.md",
