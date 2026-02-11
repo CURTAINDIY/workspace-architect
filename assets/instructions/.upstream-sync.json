@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/instructions",
-      "lastSync": "2026-02-05T23:09:18.378Z",
+      "lastSync": "2026-02-11T00:41:08.139Z",
       "files": [
         "a11y.instructions.md",
         "agent-skills.instructions.md",
@@ -30,6 +30,7 @@
         "coldfusion-cfm.instructions.md",
         "collections.instructions.md",
         "containerization-docker-best-practices.instructions.md",
+        "context-engineering.instructions.md",
         "convert-cassandra-to-spring-data-cosmos.instructions.md",
         "convert-jpa-to-spring-data-cosmos.instructions.md",
         "copilot-sdk-csharp.instructions.md",

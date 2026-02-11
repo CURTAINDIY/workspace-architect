@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/agents",
-      "lastSync": "2026-02-10T01:40:01.679Z",
+      "lastSync": "2026-02-11T00:40:52.223Z",
       "files": [
         "4.1-Beast.agent.md",
         "CSharpExpert.agent.md",
@@ -38,6 +38,7 @@
         "clojure-interactive-programming.agent.md",
         "code-tour.agent.md",
         "comet-opik.agent.md",
+        "context-architect.agent.md",
         "context7.agent.md",
         "critical-thinking.agent.md",
         "csharp-dotnet-janitor.agent.md",

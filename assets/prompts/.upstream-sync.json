@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/prompts",
-      "lastSync": "2026-02-02T01:40:07.465Z",
+      "lastSync": "2026-02-11T00:41:19.602Z",
       "files": [
         "add-educational-comments.prompt.md",
         "ai-prompt-engineering-safety-review.prompt.md",
@@ -24,6 +24,7 @@
         "comment-code-generate-a-tutorial.prompt.md",
         "containerize-aspnet-framework.prompt.md",
         "containerize-aspnetcore.prompt.md",
+        "context-map.prompt.md",
         "conventional-commit.prompt.md",
         "convert-plaintext-to-md.prompt.md",
         "copilot-instructions-blueprint-generator.prompt.md",
@@ -112,6 +113,7 @@
         "pytest-coverage.prompt.md",
         "python-mcp-server-generator.prompt.md",
         "readme-blueprint-generator.prompt.md",
+        "refactor-plan.prompt.md",
         "remember-interactive-programming.prompt.md",
         "remember.prompt.md",
         "repo-story-time.prompt.md",
@@ -141,6 +143,7 @@
         "update-markdown-file-index.prompt.md",
         "update-oo-component-documentation.prompt.md",
         "update-specification.prompt.md",
+        "what-context-needed.prompt.md",
         "write-coding-standards-from-file.prompt.md"
       ]
     }
