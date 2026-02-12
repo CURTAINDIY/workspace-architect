@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/collections",
-      "lastSync": "2026-02-11T00:41:23.808Z",
+      "lastSync": "2026-02-12T23:11:25.308Z",
       "files": [
         "awesome-copilot.collection.yml",
         "azure-cloud-development.collection.yml",
@@ -17,6 +17,7 @@
         "devops-oncall.collection.yml",
         "edge-ai-tasks.collection.yml",
         "frontend-web-dev.collection.yml",
+        "gem-team.collection.yml",
         "go-mcp-development.collection.yml",
         "java-development.collection.yml",
         "java-mcp-development.collection.yml",
